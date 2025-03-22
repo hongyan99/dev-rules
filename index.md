@@ -51,7 +51,12 @@ This directory contains focused rule sets for different phases of the software d
    - Technical documentation
    - User documentation
 
-4. **Cross-Phase Practices** → [cross_phase_practices.md](cross_phase_practices.md)
+4. **Knowledge Graph** → [knowledge_graph_rules.md](knowledge_graph_rules.md)
+   - Maintaining project context across sessions
+   - Standardized entity and relation types
+   - Knowledge Graph usage guidelines
+
+5. **Cross-Phase Practices** → [cross_phase_practices.md](cross_phase_practices.md)
    - Practices that span multiple development phases
    - Continuous activities throughout the lifecycle
    - Bridging between different development stages
@@ -80,4 +85,4 @@ This directory contains focused rule sets for different phases of the software d
 - Periodically review all rules for relevance, clarity, and consistency
 - Remove or archive outdated rules to prevent rule bloat
 - Maintain a reasonable number of rules to ensure they remain practical to follow
-- Test rules by applying them to past mistakes to verify they would have prevented the issue 
+- Test rules by applying them to past mistakes to verify they would have prevented the issue
