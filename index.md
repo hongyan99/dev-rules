@@ -67,6 +67,23 @@ This directory contains focused rule sets for different phases of the software d
    - Managing contract changes
    - Testing strategies for interfaces
 
+## Technology-Specific Guidelines
+
+For technology-specific guidelines, please refer to our dedicated directories:
+
+1. **Technology-Specific Guidelines** → [tech-specific/README.md](tech-specific/README.md)
+   - Frontend frameworks and libraries (React, Next.js, etc.)
+   - Backend technologies (FastAPI, Node.js, etc.)
+   - Database technologies (SQL, NoSQL, etc.)
+   - Mobile development (React Native, Flutter, etc.)
+   - Cloud services (AWS, Azure, etc.)
+
+2. **Integration Patterns** → [integration-patterns/README.md](integration-patterns/README.md)
+   - API design (REST, GraphQL, etc.)
+   - Microservices architecture
+   - Frontend-backend integration
+   - Data integration patterns
+
 ## Learning and Improvement
 
 1. **Lessons Learned** → [lessons_learned.md](lessons_learned.md)
