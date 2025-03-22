@@ -61,6 +61,12 @@ This directory contains focused rule sets for different phases of the software d
    - Continuous activities throughout the lifecycle
    - Bridging between different development stages
 
+6. **Interface Contract Management** → [interface_contract_rules.md](interface_contract_rules.md)
+   - Documenting layer contracts
+   - Preserving contracts during refactoring
+   - Managing contract changes
+   - Testing strategies for interfaces
+
 ## Learning and Improvement
 
 1. **Lessons Learned** → [lessons_learned.md](lessons_learned.md)
