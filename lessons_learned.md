@@ -2,6 +2,20 @@
 
 This document serves as a living record of mistakes made and lessons learned. By documenting these experiences, we create a valuable resource for avoiding similar issues in the future. This file should be reviewed periodically and used to update our development rules when necessary.
 
+## Data Preservation
+
+**Mistake:** Accidentally deleted an entire project without confirmation or backup verification.
+
+**Impact:** Caused significant loss of work that required restoration from backup, disrupting development timelines and potentially losing recent changes.
+
+**Lessons Learned:**
+- Never delete or significantly modify files without explicit user confirmation
+- Follow a staged approach for destructive operations (describe → confirm → execute)
+- Verify backup existence before performing potentially destructive operations
+- Use clear, explicit questions when confirming user intent for dangerous operations
+- Never assume destructive intent from ambiguous instructions
+- Consider non-destructive alternatives before suggesting file deletion or overwriting
+
 ## Interface Changes
 
 **Mistake:** Changed environment variable names (`DEEPSEEK_API_KEY` to `DS_API_KEY`) during adapter refactoring.
